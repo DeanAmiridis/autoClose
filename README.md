@@ -13,4 +13,5 @@ Requirements:
 - Run the following command.
 
 In this example, I am searching for the Discord process running. Keep the * before the name.
+
 get-process | Where-Object {$_.processname -Like "*Discord"} | select ProcessName
