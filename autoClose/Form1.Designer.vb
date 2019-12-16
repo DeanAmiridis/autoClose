@@ -79,46 +79,46 @@ Partial Class Form1
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.Button2)
-        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.Label4)
+        Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Location = New System.Drawing.Point(5, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(252, 135)
+        Me.GroupBox1.Size = New System.Drawing.Size(259, 135)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "&Control Center"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(9, 99)
+        Me.Button1.Location = New System.Drawing.Point(9, 19)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(95, 23)
+        Me.Button1.Size = New System.Drawing.Size(89, 23)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "&Lock Options"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(142, 99)
+        Me.Button2.Location = New System.Drawing.Point(9, 48)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(95, 23)
+        Me.Button2.Size = New System.Drawing.Size(89, 23)
         Me.Button2.TabIndex = 5
         Me.Button2.Text = "&Unlock Options"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.Button2)
         Me.GroupBox2.Controls.Add(Me.Button4)
+        Me.GroupBox2.Controls.Add(Me.Button1)
         Me.GroupBox2.Controls.Add(Me.Button3)
-        Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Controls.Add(Me.Label3)
-        Me.GroupBox2.Location = New System.Drawing.Point(5, 153)
+        Me.GroupBox2.Location = New System.Drawing.Point(270, 12)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(252, 89)
+        Me.GroupBox2.Size = New System.Drawing.Size(108, 135)
         Me.GroupBox2.TabIndex = 5
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "&Info &Actions"
@@ -126,9 +126,9 @@ Partial Class Form1
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 247)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 152)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(264, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(384, 22)
         Me.StatusStrip1.TabIndex = 6
         Me.StatusStrip1.Text = "StatusStrip1"
         '
@@ -141,7 +141,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(6, 30)
+        Me.Label3.Location = New System.Drawing.Point(60, 112)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(70, 13)
         Me.Label3.TabIndex = 0
@@ -150,11 +150,11 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(82, 30)
+        Me.Label4.Location = New System.Drawing.Point(136, 112)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(39, 13)
+        Me.Label4.Size = New System.Drawing.Size(53, 13)
         Me.Label4.TabIndex = 1
-        Me.Label4.Text = "Label4"
+        Me.Label4.Text = "TimeHere"
         '
         'Timer1
         '
@@ -162,9 +162,9 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(9, 62)
+        Me.Button3.Location = New System.Drawing.Point(9, 104)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(81, 21)
+        Me.Button3.Size = New System.Drawing.Size(89, 21)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "&Schedule Kill"
         Me.Button3.UseVisualStyleBackColor = True
@@ -174,9 +174,9 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(162, 62)
+        Me.Button4.Location = New System.Drawing.Point(9, 77)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.Size = New System.Drawing.Size(89, 21)
         Me.Button4.TabIndex = 3
         Me.Button4.Text = "&Reset"
         Me.Button4.UseVisualStyleBackColor = True
@@ -185,7 +185,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(264, 269)
+        Me.ClientSize = New System.Drawing.Size(384, 174)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -197,7 +197,6 @@ Partial Class Form1
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()
         Me.ResumeLayout(False)
