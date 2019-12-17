@@ -10,6 +10,7 @@ Requirements:
 # Screenshot (Version 0.0.2)
 <p align="center">
 ![image](https://i.imgur.com/9XtQY6D.png)
+<img align="center" src="https://i.imgur.com/9XtQY6D.png">
 </p>
 
 # How to determine process name?
