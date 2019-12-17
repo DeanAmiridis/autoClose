@@ -62,7 +62,7 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        ' Cancells core function -- resets to NULL.
+        ' Cancels core function -- resets to NULL.
 
         TextBox1.Enabled = True
         TextBox2.Enabled = True
