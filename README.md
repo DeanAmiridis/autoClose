@@ -9,7 +9,7 @@ Requirements:
 
 # Screenshot (Version 0.0.2)
 <p align="center">
-<img align="center" src="https://i.imgur.com/9XtQY6D.png">
+<img align="center" src="https://i.imgur.com/cxvaAA8.png"> <img align="center" src="https://i.imgur.com/bsjApGf.png">
 </p>
 
 # How to determine process name?
