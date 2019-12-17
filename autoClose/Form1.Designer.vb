@@ -39,6 +39,8 @@ Partial Class Form1
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel3 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
@@ -162,7 +164,7 @@ Partial Class Form1
         '
         'StatusStrip1
         '
-        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 152)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Size = New System.Drawing.Size(384, 22)
@@ -181,6 +183,21 @@ Partial Class Form1
         '
         'Timer2
         '
+        '
+        'ToolStripStatusLabel2
+        '
+        Me.ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
+        Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(10, 17)
+        Me.ToolStripStatusLabel2.Text = "|"
+        '
+        'ToolStripStatusLabel3
+        '
+        Me.ToolStripStatusLabel3.IsLink = True
+        Me.ToolStripStatusLabel3.Name = "ToolStripStatusLabel3"
+        Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(208, 17)
+        Me.ToolStripStatusLabel3.Text = "https://github.com/deanfx/autoClose"
+        Me.ToolStripStatusLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.ToolStripStatusLabel3.VisitedLinkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(225, Byte), Integer))
         '
         'Form1
         '
@@ -221,4 +238,6 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents Timer2 As Timer
     Friend WithEvents Button4 As Button
+    Friend WithEvents ToolStripStatusLabel2 As ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel3 As ToolStripStatusLabel
 End Class
