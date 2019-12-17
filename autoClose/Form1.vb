@@ -7,6 +7,8 @@
         ' Locks both Time & Proc Textbox's
         TextBox1.Enabled = False
         TextBox2.Enabled = False
+        Button1.Enabled = False
+        Button2.Enabled = True
 
     End Sub
 
@@ -14,6 +16,8 @@
         ' Disables lock for both Time & Proc Textbox's
         TextBox1.Enabled = True
         TextBox2.Enabled = True
+        Button1.Enabled = True
+        Button2.Enabled = False
 
     End Sub
 
