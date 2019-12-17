@@ -15,3 +15,7 @@ Requirements:
 In this example, I am searching for the Discord process running. Keep the * before the name.
 
 get-process | Where-Object {$_.processname -Like "*Discord"} | select ProcessName
+
+# Screenshot (Version 0.0.2)
+
+![image](https://i.imgur.com/7lE981z.png)
