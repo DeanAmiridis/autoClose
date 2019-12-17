@@ -18,4 +18,4 @@ get-process | Where-Object {$_.processname -Like "*Discord"} | select ProcessNam
 
 # Screenshot (Version 0.0.2)
 
-![image](https://i.imgur.com/7lE981z.png)
+![image](https://i.imgur.com/9XtQY6D.png)
