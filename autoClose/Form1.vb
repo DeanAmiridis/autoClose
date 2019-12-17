@@ -78,7 +78,8 @@
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        Me.Width = 400
+        Me.Height = 576
+        GroupBox3.Visible = True
         Button6.Enabled = False
         Button5.Enabled = True
 
@@ -86,9 +87,19 @@
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Me.Width = 285
+        Me.Height = 211
+        GroupBox3.Visible = False
         Button5.Enabled = False
         Button6.Enabled = True
+
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        ListBox1.Items.Clear()
+
+        For Each OneProcess As Process In Process.GetProcesses
+            ListBox1.Items.Add(OneProcess.ProcessName)
+        Next
 
     End Sub
 End Class
