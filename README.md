@@ -24,7 +24,7 @@ In this example, I am searching for the Discord process running. Keep the * befo
 get-process | Where-Object {$_.processname -Like "*Discord"} | select ProcessName
 
 
-# Downloads (Application)
+# Downloads (Application/Compiled)
 
 Version 0.0.2 - https://mega.nz/#!Vto1RIiC!YvytBh5VtRFwZuytiao2SvAncWEZt7R8CkXU-CkSa_U
 
