@@ -19,7 +19,11 @@
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         ' Pulls current time for Label4
-        Label4.Text = DateTime.Now.ToString("HH:mm")
+        ' Label4.Text = DateTime.Now.ToString("HH:mm")
+
+        Dim TimeNow As String
+        TimeNow = TimeOfDay.ToString("h:mm tt")
+        Label4.Text = TimeNow
 
     End Sub
 
