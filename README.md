@@ -2,7 +2,7 @@
 
 Simple tool that closes a specific process at any given time.
 
-__**Requirements:**__
+**Requirements:**
 - Windows Operating System
 - Understanding of 24HR time
 - Understanding of process names
@@ -13,9 +13,9 @@ __**Requirements:**__
 </p>
 
 # How to determine process name?
-In version 0.0.2; a process list was introduced to show all running processes in a list that can be called.
+'''In version 0.0.2; a process list was introduced to show all running processes in a list that can be called.'''
 
-__**[Powershell / Manual Method]**__
+**[Powershell / Manual Method]**
 - Open powershell as administrator
 - Run the following command.
 
