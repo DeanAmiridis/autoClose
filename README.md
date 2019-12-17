@@ -26,9 +26,9 @@ get-process | Where-Object {$_.processname -Like "*Discord"} | select ProcessNam
 
 # Downloads (Application/Compiled)
 
-Version 0.0.2 - https://mega.nz/#!Vto1RIiC!YvytBh5VtRFwZuytiao2SvAncWEZt7R8CkXU-CkSa_U
+> Version 0.0.2 - https://mega.nz/#!Vto1RIiC!YvytBh5VtRFwZuytiao2SvAncWEZt7R8CkXU-CkSa_U
 
-Version 0.0.1 - https://mega.nz/#!o1xBESCa!hVydan27Ar2AT0xdeyeiR3DJcH60FnxdTW3Ms9q6AFU
+> Version 0.0.1 - https://mega.nz/#!o1xBESCa!hVydan27Ar2AT0xdeyeiR3DJcH60FnxdTW3Ms9q6AFU
 
 
 
