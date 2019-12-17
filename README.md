@@ -7,6 +7,10 @@ Requirements:
 - Understanding of 24HR time
 - Understanding of process names
 
+# Screenshot (Version 0.0.2)
+<p align="center">
+![image](https://i.imgur.com/9XtQY6D.png)
+</p>
 
 # How to determine process name?
 - Open powershell as administrator
@@ -16,6 +20,3 @@ In this example, I am searching for the Discord process running. Keep the * befo
 
 get-process | Where-Object {$_.processname -Like "*Discord"} | select ProcessName
 
-# Screenshot (Version 0.0.2)
-
-![image](https://i.imgur.com/9XtQY6D.png)
