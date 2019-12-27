@@ -47,6 +47,7 @@ Partial Class Form1
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
@@ -57,25 +58,28 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(6, 26)
+        Me.Label1.Location = New System.Drawing.Point(11, 48)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(92, 13)
+        Me.Label1.Size = New System.Drawing.Size(159, 25)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "&Process Name:"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(104, 21)
+        Me.TextBox1.Location = New System.Drawing.Point(191, 39)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(146, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(264, 29)
         Me.TextBox1.TabIndex = 1
         Me.TextBox1.Text = "Proc name here (NO .EXE)"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(104, 46)
+        Me.TextBox2.Location = New System.Drawing.Point(191, 94)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(146, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(264, 29)
         Me.TextBox2.TabIndex = 2
         Me.TextBox2.Text = "HH:mm AM/PM"
         '
@@ -83,9 +87,10 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(6, 53)
+        Me.Label2.Location = New System.Drawing.Point(11, 98)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(59, 13)
+        Me.Label2.Size = New System.Drawing.Size(103, 25)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "&Kill Time:"
         '
@@ -99,18 +104,21 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.TextBox2)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Location = New System.Drawing.Point(5, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(9, 22)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(6)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(259, 135)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(6)
+        Me.GroupBox1.Size = New System.Drawing.Size(475, 249)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "&Control Center"
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(9, 103)
+        Me.Button6.Location = New System.Drawing.Point(17, 190)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(6)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(98, 22)
+        Me.Button6.Size = New System.Drawing.Size(180, 41)
         Me.Button6.TabIndex = 5
         Me.Button6.Text = "&Show Processes"
         Me.Button6.UseVisualStyleBackColor = True
@@ -118,9 +126,10 @@ Partial Class Form1
         'Button5
         '
         Me.Button5.Enabled = False
-        Me.Button5.Location = New System.Drawing.Point(149, 103)
+        Me.Button5.Location = New System.Drawing.Point(273, 190)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(6)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(101, 22)
+        Me.Button5.Size = New System.Drawing.Size(185, 41)
         Me.Button5.TabIndex = 4
         Me.Button5.Text = "&Hide Processes"
         Me.Button5.UseVisualStyleBackColor = True
@@ -128,9 +137,10 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(149, 77)
+        Me.Label4.Location = New System.Drawing.Point(185, 150)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(53, 13)
+        Me.Label4.Size = New System.Drawing.Size(98, 25)
         Me.Label4.TabIndex = 1
         Me.Label4.Text = "TimeHere"
         '
@@ -138,17 +148,19 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(6, 77)
+        Me.Label3.Location = New System.Drawing.Point(11, 150)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(83, 13)
+        Me.Label3.Size = New System.Drawing.Size(145, 25)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "&Current Time:"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(9, 19)
+        Me.Button1.Location = New System.Drawing.Point(17, 35)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(6)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(89, 23)
+        Me.Button1.Size = New System.Drawing.Size(163, 42)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "&Lock Options"
         Me.Button1.UseVisualStyleBackColor = True
@@ -156,9 +168,10 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.Enabled = False
-        Me.Button2.Location = New System.Drawing.Point(9, 48)
+        Me.Button2.Location = New System.Drawing.Point(17, 89)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(6)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(89, 23)
+        Me.Button2.Size = New System.Drawing.Size(163, 42)
         Me.Button2.TabIndex = 5
         Me.Button2.Text = "&Unlock Options"
         Me.Button2.UseVisualStyleBackColor = True
@@ -169,57 +182,63 @@ Partial Class Form1
         Me.GroupBox2.Controls.Add(Me.Button4)
         Me.GroupBox2.Controls.Add(Me.Button1)
         Me.GroupBox2.Controls.Add(Me.Button3)
-        Me.GroupBox2.Location = New System.Drawing.Point(270, 12)
+        Me.GroupBox2.Location = New System.Drawing.Point(495, 22)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(6)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(108, 135)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(6)
+        Me.GroupBox2.Size = New System.Drawing.Size(198, 249)
         Me.GroupBox2.TabIndex = 5
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "&Actions"
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(9, 77)
+        Me.Button4.Location = New System.Drawing.Point(17, 142)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(6)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(89, 21)
+        Me.Button4.Size = New System.Drawing.Size(163, 39)
         Me.Button4.TabIndex = 3
         Me.Button4.Text = "&Reset"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(9, 104)
+        Me.Button3.Location = New System.Drawing.Point(17, 192)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(6)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(89, 21)
+        Me.Button3.Size = New System.Drawing.Size(163, 39)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "&Schedule Kill"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'StatusStrip1
         '
+        Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(28, 28)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 150)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 279)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(384, 22)
+        Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(2, 0, 26, 0)
+        Me.StatusStrip1.Size = New System.Drawing.Size(704, 39)
         Me.StatusStrip1.TabIndex = 6
         Me.StatusStrip1.Text = "StatusStrip1"
         '
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(119, 17)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(205, 30)
         Me.ToolStripStatusLabel1.Text = "www.aselectfew.com"
         '
         'ToolStripStatusLabel2
         '
         Me.ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
-        Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(10, 17)
+        Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(18, 30)
         Me.ToolStripStatusLabel2.Text = "|"
         '
         'ToolStripStatusLabel3
         '
         Me.ToolStripStatusLabel3.IsLink = True
         Me.ToolStripStatusLabel3.Name = "ToolStripStatusLabel3"
-        Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(208, 17)
+        Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(357, 30)
         Me.ToolStripStatusLabel3.Text = "https://github.com/deanfx/autoClose"
         Me.ToolStripStatusLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ToolStripStatusLabel3.VisitedLinkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(225, Byte), Integer))
@@ -234,18 +253,21 @@ Partial Class Form1
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(9, 19)
+        Me.ListBox1.ItemHeight = 24
+        Me.ListBox1.Location = New System.Drawing.Point(17, 35)
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(6)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.ScrollAlwaysVisible = True
-        Me.ListBox1.Size = New System.Drawing.Size(354, 303)
+        Me.ListBox1.Size = New System.Drawing.Size(646, 556)
         Me.ListBox1.Sorted = True
         Me.ListBox1.TabIndex = 7
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(152, 328)
+        Me.Button7.Location = New System.Drawing.Point(279, 606)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(6)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 23)
+        Me.Button7.Size = New System.Drawing.Size(138, 42)
         Me.Button7.TabIndex = 8
         Me.Button7.Text = "&Refresh List"
         Me.Button7.UseVisualStyleBackColor = True
@@ -254,29 +276,39 @@ Partial Class Form1
         '
         Me.GroupBox3.Controls.Add(Me.ListBox1)
         Me.GroupBox3.Controls.Add(Me.Button7)
-        Me.GroupBox3.Location = New System.Drawing.Point(5, 154)
+        Me.GroupBox3.Location = New System.Drawing.Point(9, 284)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(6)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(373, 358)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(6)
+        Me.GroupBox3.Size = New System.Drawing.Size(684, 661)
         Me.GroupBox3.TabIndex = 9
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "&Processes"
         Me.GroupBox3.Visible = False
         '
+        'NotifyIcon1
+        '
+        Me.NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), System.Drawing.Icon)
+        Me.NotifyIcon1.Text = "autoClose - v0.0.3"
+        Me.NotifyIcon1.Visible = True
+        '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(384, 172)
+        Me.ClientSize = New System.Drawing.Size(704, 318)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.MaximizeBox = False
         Me.Name = "Form1"
+        Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "AutoClose - v0.0.2"
+        Me.Text = "AutoClose - v0.0.3"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
@@ -311,4 +343,5 @@ Partial Class Form1
     Friend WithEvents ListBox1 As ListBox
     Friend WithEvents Button7 As Button
     Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents NotifyIcon1 As NotifyIcon
 End Class
