@@ -2,7 +2,7 @@
 
 Simple tool that closes a specific process at any given time.
 
-<img src="https://img.shields.io/github/issues/deanfx/autoClose?style=plastic"> <img src="https://img.shields.io/github/repo-size/deanfx/autoClose?style=plastic"> [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ab202e87a2564e02bc6507de6bf92660)](https://www.codacy.com/manual/deanfx/autoClose?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=deanfx/autoClose&amp;utm_campaign=Badge_Grade) <img src="https://img.shields.io/github/last-commit/deanfx/autoClose?style=plastic"> <img src="https://img.shields.io/github/contributors/deanfx/autoClose?style=plastic"> <img src"https://img.shields.io/github/last-commit/deanfx/autoClose?style=plastic">
+<img src="https://img.shields.io/github/issues/deanfx/autoClose?style=plastic"> <img src="https://img.shields.io/github/repo-size/deanfx/autoClose?style=plastic"> [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ab202e87a2564e02bc6507de6bf92660)](https://www.codacy.com/manual/deanfx/autoClose?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=deanfx/autoClose&amp;utm_campaign=Badge_Grade) <img src="https://img.shields.io/github/last-commit/deanfx/autoClose?style=plastic"> <img src="https://img.shields.io/github/contributors/deanfx/autoClose?style=plastic"> <img src="https://img.shields.io/github/last-commit/deanfx/autoClose?style=plastic">
 
 <img src="https://img.shields.io/twitter/follow/deanfx?style=plastic">
 
