@@ -2,7 +2,9 @@
 
 Simple tool that closes a specific process at any given time.
 
-<img src="https://img.shields.io/github/issues/deanfx/autoClose?style=plastic"> <img src="https://img.shields.io/github/repo-size/deanfx/autoClose?style=plastic">
+<img src="https://img.shields.io/github/issues/deanfx/autoClose?style=plastic"> <img src="https://img.shields.io/github/repo-size/deanfx/autoClose?style=plastic"> <img src="https://img.shields.io/github/commit-activity/m/deanfx/autoClose?style=plastic"> 
+
+<img src="https://img.shields.io/twitter/follow/deanfx?style=plastic">
 
 **Requirements:**
 - Windows Operating System
