@@ -2,7 +2,7 @@
 
 Simple tool that closes a specific process at any given time.
 
-<img src="https://img.shields.io/github/issues/deanfx/autoClose?style=plastic">
+<img src="https://img.shields.io/github/issues/deanfx/autoClose?style=plastic"> <img src="https://img.shields.io/github/repo-size/deanfx/autoClose?style=plastic">
 
 **Requirements:**
 - Windows Operating System
@@ -10,7 +10,7 @@ Simple tool that closes a specific process at any given time.
 
 # Screenshot (Version 0.0.2)
 <p align="center">
-<img align="center" src="https://i.imgur.com/cxvaAA8.png"> <img align="center" src="https://i.imgur.com/bsjApGf.png"> <img src="https://img.shields.io/github/repo-size/deanfx/autoClose?style=plastic">
+<img align="center" src="https://i.imgur.com/cxvaAA8.png"> <img align="center" src="https://i.imgur.com/bsjApGf.png"> 
 </p>
 
 # How to determine process name?
