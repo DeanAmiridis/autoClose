@@ -6,16 +6,16 @@ Simple tool that closes a specific process at any given time.
 
 <img src="https://img.shields.io/twitter/follow/deanfx?style=plastic">
 
-## Requirements:
+###### Requirements:
 - Windows Operating System
 - Understanding of process names
 
-## Screenshot (Version 0.0.2)
+###### Screenshot (Version 0.0.2)
 <p align="center">
 <img align="center" src="https://i.imgur.com/cxvaAA8.png"> <img align="center" src="https://i.imgur.com/bsjApGf.png"> 
 </p>
 
-## How to determine process name?
+###### How to determine process name?
 > In version 0.0.2; a process list was introduced to show all running processes in a list that can be called.
 
 **[Powershell / Manual Method]**
@@ -27,7 +27,7 @@ In this example, I am searching for the Discord process running. Keep the * befo
 get-process | Where-Object {$_.processname -Like "*Discord"} | select ProcessName
 
 
-## Downloads (Application/Compiled)
+###### Downloads (Application/Compiled)
 > Version 0.0.3 - https://mega.nz/#!s0Jg0I6S!PR-Qvi6-okJc_adrdVUxZSE3Je5gXmdzdFQ8FdHfbSw
 
 > Version 0.0.2 - https://mega.nz/#!Vto1RIiC!YvytBh5VtRFwZuytiao2SvAncWEZt7R8CkXU-CkSa_U
