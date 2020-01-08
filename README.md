@@ -1,4 +1,6 @@
-# autoClose
+<p align="center">
+  **autoClose**
+</p>
 
 Simple tool that closes a specific process at any given time.
 
@@ -6,7 +8,7 @@ Simple tool that closes a specific process at any given time.
 
 <img src="https://img.shields.io/twitter/follow/deanfx?style=plastic">
 
-**Requirements:**
+# Requirements:
 - Windows Operating System
 - Understanding of process names
 
