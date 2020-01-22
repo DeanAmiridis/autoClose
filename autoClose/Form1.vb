@@ -119,4 +119,13 @@
     Private Sub NotifyIcon1_Click(sender As Object, e As EventArgs) Handles NotifyIcon1.Click
         Me.WindowState = FormWindowState.Normal
     End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        Dim cntr As Integer
+        For cntr = ListBox1.Items.Count - 1 To 1 Step -1
+            ' If next item is a duplicate -> Remove It
+            If ListBox1.Items(cntr) = ListBox1.Items(cntr - 1) Then _
+            ListBox1.Items.RemoveAt(cntr)
+        Next
+    End Sub
 End Class
