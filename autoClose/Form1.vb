@@ -10,11 +10,13 @@
         TextBox2.Enabled = False
         Button1.Enabled = False
         Button2.Enabled = True
+        ListBox1.Enabled = False
 
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         ' Disables lock for both Time & Proc Textbox's
+        ListBox1.Enabled = True
         TextBox1.Enabled = True
         TextBox2.Enabled = True
         Button1.Enabled = True
