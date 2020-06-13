@@ -47,8 +47,8 @@ Partial Class Form1
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.Button8 = New System.Windows.Forms.Button()
+        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
@@ -222,8 +222,8 @@ Partial Class Form1
         '
         Me.ToolStripStatusLabel3.IsLink = True
         Me.ToolStripStatusLabel3.Name = "ToolStripStatusLabel3"
-        Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(208, 17)
-        Me.ToolStripStatusLabel3.Text = "https://github.com/deanfx/autoClose"
+        Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(240, 17)
+        Me.ToolStripStatusLabel3.Text = "https://github.com/deanamiridis/autoClose"
         Me.ToolStripStatusLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ToolStripStatusLabel3.VisitedLinkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(225, Byte), Integer))
         '
@@ -266,12 +266,6 @@ Partial Class Form1
         Me.GroupBox3.Text = "&Processes"
         Me.GroupBox3.Visible = False
         '
-        'NotifyIcon1
-        '
-        Me.NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), System.Drawing.Icon)
-        Me.NotifyIcon1.Text = "autoClose - v0.0.3"
-        Me.NotifyIcon1.Visible = True
-        '
         'Button8
         '
         Me.Button8.Location = New System.Drawing.Point(250, 329)
@@ -280,6 +274,12 @@ Partial Class Form1
         Me.Button8.TabIndex = 9
         Me.Button8.Text = "&Remove Duplicates"
         Me.Button8.UseVisualStyleBackColor = True
+        '
+        'NotifyIcon1
+        '
+        Me.NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), System.Drawing.Icon)
+        Me.NotifyIcon1.Text = "autoClose - v0.0.3"
+        Me.NotifyIcon1.Visible = True
         '
         'Form1
         '
