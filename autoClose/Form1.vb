@@ -60,6 +60,12 @@
                 Next
             Catch ex As Exception
             End Try
+            TextBox1.Enabled = True
+            TextBox2.Enabled = True
+            Button3.Enabled = True
+            Button1.Enabled = True
+            Button2.Enabled = True
+            Timer2.Enabled = False
         End If
 
     End Sub

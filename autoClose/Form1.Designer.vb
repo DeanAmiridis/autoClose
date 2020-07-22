@@ -296,7 +296,7 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "AutoClose - v0.0.4"
+        Me.Text = "AutoClose - v0.0.5"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
